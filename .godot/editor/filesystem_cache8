@@ -1,5 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739231658
+::res://::1739232049
 icon.svg::CompressedTexture2D::8070316695370699325::1739226308::1739226310::1::::<><>::
-::res://Scenes/::1739231637
-::res://Scripts/::1739231658
+::res://Assets/::1739231667
+::res://Scenes/::1739232042
+TitleScreen.gd::GDScript::-1::1739232034::0::1::::<>Control<>::
+TitleScreen.tscn::PackedScene::2428313151877936314::1739232056::0::1::::<><>::res://Scenes/TitleScreen.gd
+::res://Scripts/::1739231659
