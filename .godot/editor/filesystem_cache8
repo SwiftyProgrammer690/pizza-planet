@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739328838
+::res://::1739328842
 icon.svg::CompressedTexture2D::8070316695370699325::1739226308::1739226310::1::::<><>::
 ::res://Assets/::1739231667
-::res://Scenes/::1739320411
+::res://Scenes/::1739328863
 SCREEN2.tscn::PackedScene::5064312282901424471::1739320411::0::1::::<><>::
-TEST PLAYER.tscn::PackedScene::5982385002423292030::1739320411::0::1::::<><>::res://Scripts/player.gd<>uid://dm8k64bk17c18::::res://icon.svg
-TESTLEVEL.tscn::PackedScene::5492811641258044::1739320411::0::1::::<><>::uid://crh6aibi55cda::::res://Scenes/TEST PLAYER.tscn
+TEST PLAYER.tscn::PackedScene::5982385002423292030::1739328863::0::1::::<><>::res://Scripts/player.gd<>uid://dm8k64bk17c18::::res://icon.svg
+TESTLEVEL.tscn::PackedScene::5492811641258044::1739381125::0::1::::<><>::uid://crh6aibi55cda::::res://Scenes/TEST PLAYER.tscn
 TitleScreen.tscn::PackedScene::2428313151877936314::1739320411::0::1::::<><>::res://Scripts/TitleScreen.gd
 ::res://Scripts/::1739232379
 player.gd::GDScript::-1::1739232379::0::1::::<>CharacterBody2D<>::
