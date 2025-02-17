@@ -12,3 +12,9 @@ grow_vertical = 2
 layout_mode = 0
 offset_right = 1500.0
 offset_bottom = 874.0
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Prayan Is Very Sigma Boy"
