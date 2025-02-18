@@ -1,3 +1,5 @@
+RichTextLabel
+Button
 TextEdit
 AnimatedSprite2D
 CollisionShape2D
@@ -5,5 +7,3 @@ Area2D
 Sprite2D
 CharacterBody2D
 ColorRect
-Button
-RichTextLabel

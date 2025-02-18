@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://bauj70bc8gsja"]
+[gd_scene load_steps=4 format=3 uid="uid://bauj70bc8gsja"]
 
 [ext_resource type="Script" path="res://Scripts/TitleScreen.gd" id="1_nm1ww"]
+[ext_resource type="FontFile" uid="uid://ddi0oskje184j" path="res://Assets/Fonts/platinum_sign/Platinum Sign.ttf" id="2_iru5a"]
+[ext_resource type="FontFile" uid="uid://dofiv24or7gos" path="res://Assets/Fonts/daydream_3/Daydream.ttf" id="3_akmtn"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -15,21 +17,54 @@ script = ExtResource("1_nm1ww")
 layout_mode = 0
 offset_right = 1213.0
 offset_bottom = 691.0
-color = Color(1, 0.054902, 1, 1)
+color = Color(1, 0.413386, 0.257271, 1)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_right = 1014.0
-offset_bottom = 487.0
-theme_override_font_sizes/normal_font_size = 100
-text = "Pizza Paragon"
+offset_left = 145.0
+offset_top = 57.0
+offset_right = 1159.0
+offset_bottom = 544.0
+theme_override_fonts/normal_font = ExtResource("2_iru5a")
+theme_override_font_sizes/normal_font_size = 75
+text = "MISSION"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 93.0
+offset_top = 200.0
+offset_right = 1107.0
+offset_bottom = 687.0
+theme_override_fonts/normal_font = ExtResource("2_iru5a")
+theme_override_font_sizes/normal_font_size = 59
+text = "IMPIZZABLE"
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 676.0
+offset_top = 446.0
+offset_right = 824.0
+offset_bottom = 583.0
+text = "INSERT PIZZA IMAGE HERE"
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 236.0
-offset_top = 323.0
-offset_right = 542.0
-offset_bottom = 495.0
-text = "SIGMA BOI"
+offset_left = 301.0
+offset_top = 383.0
+offset_right = 584.0
+offset_bottom = 468.0
+theme_override_fonts/font = ExtResource("3_akmtn")
+theme_override_font_sizes/font_size = 24
+text = "Start Game"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 301.0
+offset_top = 488.0
+offset_right = 584.0
+offset_bottom = 573.0
+theme_override_fonts/font = ExtResource("3_akmtn")
+theme_override_font_sizes/font_size = 24
+text = "Credits"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

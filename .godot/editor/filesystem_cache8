@@ -1,13 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739751888
+::res://::1739920642
 icon.svg::CompressedTexture2D::8070316695370699325::1739226308::1739226310::1::::<><>::
 ::res://Assets/::1739642085
-::res://Assets/Fonts/::1739642085
-::res://Scenes/::1739751708
+::res://Assets/Fonts/::1739921311
+::res://Assets/Fonts/daydream_3/::1739921311
+Daydream 1.0 Personal License.txt::TextFile::-1::1594046190::0::1::::<><>::
+Daydream.ttf::FontFile::8152752451986050710::1592695374::1739921312::1::::<><>::
+::res://Assets/Fonts/platinum_sign/::1739920755
+Platinum Sign Over.ttf::FontFile::3837890169740657357::1584996908::1739920755::1::::<><>::
+Platinum Sign Under.ttf::FontFile::1779136435567265637::1588012372::1739920755::1::::<><>::
+Platinum Sign.ttf::FontFile::7387887491243380631::1584989454::1739920755::1::::<><>::
+::res://Scenes/::1739921058
 Player.tscn::PackedScene::5982385002423292030::1739493095::0::1::::<><>::res://Scripts/player.gd<>uid://dm8k64bk17c18::::res://icon.svg
 SCREEN2.tscn::PackedScene::5064312282901424471::1739751708::0::1::::<><>::
 TESTLEVEL.tscn::PackedScene::5492811641258044::1739646340::0::1::::<><>::uid://crh6aibi55cda::::res://Scenes/Player.tscn
-TitleScreen.tscn::PackedScene::2428313151877936314::1739642074::0::1::::<><>::res://Scripts/TitleScreen.gd
+TitleScreen.tscn::PackedScene::2428313151877936314::1739921058::0::1::::<><>::res://Scripts/TitleScreen.gd<>uid://ddi0oskje184j::::res://Assets/Fonts/platinum_sign/Platinum Sign.ttf
 ::res://Scripts/::1739645853
 player.gd::GDScript::-1::1739641898::0::1::::<>CharacterBody2D<>::
 TitleScreen.gd::GDScript::-1::1739232171::0::1::::<>Control<>::
